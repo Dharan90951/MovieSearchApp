@@ -6,6 +6,6 @@ This repository consist of the code for MovieSearchApp
 
 
 <figure>
-  <figcaption>Screenshot OUTPUT(on desktop screen)</figcaption>
-  <img preview.png" alt="Screenshot" width="700">
+  <figcaption>Screenshot(on desktop screen)</figcaption>
+  <img preview.png alt="Screenshot" width="700">
 </figure>
