@@ -1,0 +1,52 @@
+.app {
+  min-height: 100vh;
+  background-color: #121212;
+}
+
+.MuiCard-root {
+  transition: transform 0.2s;
+  background-color: #1e1e1e;
+  margin: 10px;
+}
+
+.MuiCard-root:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+}
+
+.movie-grid {
+  padding: 24px;
+}
+
+.movie-card {
+  height: 100%;
+}
+
+.movie-poster {
+  height: 400px;
+  object-fit: cover;
+}
+
+.movie-title {
+  padding: 16px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .movie-grid {
+    padding: 12px;
+  }
+  
+  .movie-poster {
+    height: 300px;
+  }
+}
